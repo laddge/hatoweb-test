@@ -1,8 +1,7 @@
 <script>
-let secmentCount = 1;
+let segmentCount = 1;
 let l = window.location;
 let port = l.port ? ':' + l.port : ''
 let url = l.protocol + '//' + l.hostname + port + '/?p=' + l.pathname.split('/').slice(0, 1 + segmentCount).join('/');
-alert(url);
-// l.replace(url);
+l.replace(url);
 </script>
