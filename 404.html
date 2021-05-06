@@ -1,9 +1,9 @@
 <script>
 let secmentCount = 1;
 let l = window.location;
-alert(l.hostname);
 let port = l.port ? ':' + l.port : ''
 l.replace(
     `${l.protocol}//${l.hostname}${port}/?p=${l.pathname.split('/').slice(0, 1 + segmentCount).join('/')}`
     )
+alert(l);
 </script>
