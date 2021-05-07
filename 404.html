@@ -1,7 +1,6 @@
 <script>
-const segmentCount = 1;
 const l = window.location;
 const port = l.port ? ':' + l.port : '';
-const url = l.protocol + '//' + l.hostname + port + '/?p=' + encodeURI(l.pathname.split('/').slice(0, 1 + segmentCount).join('/'));
+const url = l.protocol + '//' + l.hostname + port + '/?p=' + encodeURI(l.pathname);
 l.replace(url);
 </script>
