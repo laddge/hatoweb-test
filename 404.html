@@ -1,5 +1,5 @@
 <script>
 const l = window.location;
-const url = l.protocol + '//' + l.host + '/?p=' + encodeURI(str(l).replace(l.protocol + '//' + l.host, ''));
+const url = l.protocol + '//' + l.host + '/?p=' + encodeURI(String(l).replace(l.protocol + '//' + l.host, ''));
 l.replace(url);
 </script>
