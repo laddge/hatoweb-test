@@ -3,6 +3,7 @@
                     const params = new URLSearchParams(l.search);
                 if (params.get('q')) {
                     const url = l.protocol + '//' + l.hostname + port + params.get('p');
+                    alert(url);
                     window.history.replaceState(null, null, url);
                 }
             }
