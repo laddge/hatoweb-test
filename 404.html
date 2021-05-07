@@ -1,6 +1,5 @@
 <script>
 const l = window.location;
-const port = l.port ? ':' + l.port : '';
-const url = l.protocol + '//' + l.hostname + port + '/?p=' + encodeURI(l.pathname);
+const url = l.protocol + '//' + l.host + '/?p=' + encodeURI(str(l).replace(l.protocol + '//' + l.host, ''));
 l.replace(url);
 </script>
