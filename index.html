@@ -2,7 +2,7 @@
             if (l.search) {
                     const params = new URLSearchParams(l.search);
                 if (params.get('q')) {
-                    const url = l.protocol + '//' + l.hostname + port + '/' + params.get('p');
+                    const url = l.protocol + '//' + l.hostname + port + params.get('p');
                     window.history.replaceState(null, null, url);
                 }
             }
