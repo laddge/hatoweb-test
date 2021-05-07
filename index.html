@@ -4,7 +4,6 @@
                 if (params.get('p')) {
                     const port = l.port ? ':' + l.port : '';
                     const url = l.protocol + '//' + l.hostname + port + params.get('p');
-                    alert(url);
                     window.history.replaceState(null, null, url);
                 }
             }
