@@ -3,7 +3,7 @@
     "background_color": "#f69435",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "./index.html",
     "name": "\u9ce9Web\uff01",
     "short_name": "HatoWeb",
     "icons": [
