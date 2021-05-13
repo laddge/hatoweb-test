@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.d98fe6ed213b7cb3d8bfd44b98696d9b.js"
+  "precache-manifest.1cb9027a499da0a098499a64077a5ace.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "hatoweb"});
